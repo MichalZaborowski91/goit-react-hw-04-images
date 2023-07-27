@@ -21,6 +21,7 @@ const ImagesFinder = () => {
     closeModal();
     setImages(fetchImages());
     setIsLoading(false);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const fetchImages = async () => {
