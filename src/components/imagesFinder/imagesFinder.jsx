@@ -19,7 +19,7 @@ const ImagesFinder = () => {
 
   useEffect(() => {
     closeModal();
-    fetchImages();
+    setImages(fetchImages());
     setIsLoading(false);
   }, []);
 
